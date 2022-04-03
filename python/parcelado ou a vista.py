@@ -1,0 +1,16 @@
+print('qual é o preço do produto? R$:')
+preço = float(input(''))
+print('vai pagar parcelado?\nse sim digite y e se não digite n:')
+resposta = input('')
+if resposta == 'y' :
+    print('quanto é o juros das parcelas por mês')
+    juros = float(input(''))
+    print('em quantas vezes? meses:')
+    parcela = int(input(''))
+    parcelado = preço+(preço*parcela*juros/100)
+    print('o produto parcelado saí por {:.2f}R$\npor causa do juros de {:.2f}%'.format(parcelado,juros))
+else:
+    print('quanto é o desconto a vista? %:')
+    descontoaVista = float(input(''))
+    aVista = preço-(preço*descontoaVista/100) 
+    print('o produto a vista saí por {:.2f}R$\npor causa dos {:.2f}% de desconto'.format(aVista,descontoaVista))

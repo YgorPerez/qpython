@@ -1,0 +1,5 @@
+f = str(input('digite algo: ')).strip().lower()
+l = input('digite a letra que\nquer procurar na frase: ')
+print('a letra "{}" aparece {} vezes na frase:\n"{}"'.format(l,f.count(l),f))
+print('a primeira letra "{}" aparece na posição {}'.format(l,f.find(l)+1))
+print('a última vez em que "{}" aparece é na posição {}'.format(l,f.rfind(l)+1))

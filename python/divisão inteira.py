@@ -1,0 +1,5 @@
+print('digite um número para a divisão inteira')
+número = float(input(''))
+print('digite o divisor')
+divisor = float(input(''))
+print('{} // {} = {}'.format(número,divisor, número//divisor))
