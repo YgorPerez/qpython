@@ -1,2 +1,2 @@
 # qpython
- First programming experience, I didn't even had a pc, programed on my phone
+ First programming experience, I didn't even had a pc, I programed on my phone
